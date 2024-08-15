@@ -32,7 +32,7 @@
 .nav-left{
     display: flex;
     align-items: center;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
     font-family: Work Sans;
     margin-left: 10px;
@@ -47,7 +47,7 @@
 .nav-btn{
     background-color: transparent;
     border: none;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 500;
     /* margin-right: 10px; */
 
@@ -85,7 +85,7 @@
 }
 
 .goat{
-    font-size: 60px;
+    font-size: 3.7rem;
     font-weight: 800;
     background-image: linear-gradient(#f948b2, #8758f1);
     background-clip: text;
@@ -126,6 +126,8 @@
     width: 100%;
 }
 
+/* we are gamer  */
+
 .gamer-container{
     background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%,rgba(255, 66, 165, 0.03) 87.942%);
 }
@@ -156,7 +158,7 @@
 }
 
 .game{
-    font-size: 50px;
+    font-size: 3.12rem;
     font-weight: 800;
     background-image: linear-gradient(#f948b2, #8758f1);
     background-clip: text;
@@ -176,4 +178,133 @@
 
 .Unleash{
     font-size: 25px;
+}
+
+/* online game  */
+
+.online-heading{
+    max-width: 1150px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.online-title{
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.funny{
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 700;
+    font-weight: 800;
+    background-image: linear-gradient(#f948b2, #895def);
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.301);
+}
+
+.online-des{
+    margin-top: -10px;
+    font-size: 1.2rem;
+}
+.online-title{
+    
+}
+
+.online-main{
+    max-width: 1150px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-areas: "a b c d";
+    gap: 15px;
+    text-align: left;
+    font-family: Work Sans;
+}
+
+.online-card{
+    position: relative;
+}
+.online-card img{
+    width: 100%;
+    height: 80%;
+    
+}
+
+.card-1{
+    grid-area: a;
+}
+.card-2{
+    grid-area: b;
+}
+.card-3{
+    grid-area: c;
+}
+.card-4{
+    grid-area: d;
+
+}
+
+.watch-now{
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 35%;
+    left: 37%;
+    text-align: center;
+    display: none;
+    
+
+}
+
+.watch-now span{
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+}
+
+.watch-now p{
+    color: red;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.online-card img:hover+.watch-now{
+    display: block;
+    
+}
+.online-card img:hover{
+    filter: brightness(50%); 
+}
+
+.play-main{
+    display: flex;
+    max-width: 1150px;
+    margin: 0 auto 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.play-left{
+    width: 40%;
+}
+
+.play-right{
+    width: 40%;
+    position: relative;
+}
+
+.play-right img{
+    width: 100%;
+}
+
+.play-right .cat{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    bottom: -7%;
+    left: -25%;
 }

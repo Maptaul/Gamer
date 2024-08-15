@@ -55,6 +55,52 @@
         font-size: 1.2rem;
     }
 
+    .online-title{
+        font-size: 1.5rem;
+    }
+    .funny{
+        font-size: 1.5rem;
+    }
+
+    .online-des{
+        font-size: 13px;
+    }
+
+    .online-main{
+        grid-template-areas: 
+        "a"
+        "b"
+        "c"
+        "d"
+        ;
+        
+    }
+
+    .play-main{
+        flex-direction: column;
+        width: 70%;
+    }
+    
+    .play-left{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .play-right{
+        width: 100%;
+    }
+
+    .play-right .cat{
+        width: 140px;
+        height: 120px;
+        bottom: -7%;
+        left: -22%;
+    }
+
+
+
+
+
     
 
 }
