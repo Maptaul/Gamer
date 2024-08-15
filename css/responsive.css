@@ -96,6 +96,27 @@
         bottom: -7%;
         left: -22%;
     }
+    .play-online-main{
+        flex-direction: column-reverse;
+        width: 70%;
+    }
+    
+    .play-online-left{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .play-online-right{
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-online-right .cat{
+        width: 140px;
+        height: 120px;
+        bottom: -7%;
+        left: -22%;
+    }
 
 
 
