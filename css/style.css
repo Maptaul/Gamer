@@ -308,3 +308,32 @@
     bottom: -7%;
     left: -25%;
 }
+.play-online-main{
+    display: flex;
+    max-width: 1150px;
+    margin: 0 auto 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.play-online-left{
+    width: 40%;
+    position: relative;
+}
+
+.play-online-right{
+    width: 40%;
+    
+}
+
+.play-online-left img{
+    width: 100%;
+}
+
+.play-online-left .cat{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    bottom: -7%;
+    right: -20%;
+}
