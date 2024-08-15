@@ -1,0 +1,60 @@
+@media screen and (max-width: 576px ) {
+    .nav-main,
+    .nav-right{
+        flex-direction: column;
+    }
+    .nav-container{
+        box-shadow: none; 
+    }
+
+
+    .nav-right{
+        
+    }
+
+    .nav-btn{
+        margin-top: 10px;
+    }
+    .header-container{
+        background-position: 100%;
+    }
+
+    .header-main{
+        flex-direction: column-reverse;
+    }
+    .header-left, .header-right{
+        width: 80%;
+    }
+
+    .gamer-main,
+    .gamer-right{
+        flex-direction: column;
+    }
+    .gamer-right, .gamer-left{
+        width: 80%;
+    }
+
+    .gamer-right{
+        text-align: center;
+    }
+
+    .game{
+        font-size: 30px;
+        font-weight: 800;
+        background-image: linear-gradient(#f948b2, #8758f1);
+        background-clip: text;
+        color: transparent;
+        text-shadow: 0px 2px 4px rgba(0,0,0,0.301);
+    }
+    
+    .gamer-right-des{
+        font-size: 1rem;
+    }
+
+    .Unleash{
+        font-size: 1.2rem;
+    }
+
+    
+
+}

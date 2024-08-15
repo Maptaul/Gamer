@@ -40,6 +40,7 @@
 
 .nav-right{
     margin-right: 10px;
+    display: flex;
 
 }
 
@@ -62,14 +63,117 @@
 
 /* header options start */
 
-.header-main{
-
+.header-container{
+    background-image: url(../resources/group\ 14.png);
+    background-repeat: no-repeat;
+    background-position: -80%;
 }
 
-.header-right{
-
+.header-main{
+    /* border: 1px solid red; */
+    display: flex;
+    max-width: 1150px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .header-left{
+    /* border: 2px solid yellow; */
+    width: 50%;
+    font-family: Work Sans;
+}
 
+.goat{
+    font-size: 60px;
+    font-weight: 800;
+    background-image: linear-gradient(#f948b2, #8758f1);
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.301);
+}
+.goat-overlay{
+    position: absolute; 
+    top: 11%;
+    text-shadow: none;
+}
+.header-btn1, .header-btn2{
+    padding: 15px 20px;
+    border-radius: 48px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: white;
+}
+.header-btn1{
+    background-color: #ff42a5;
+}
+.header-btn2{
+    background-color: #4ec5f7;
+    
+}
+.icon{
+    color: #ff42a5;
+}
+
+.header-right{
+    /* border: 1px solid green; */
+    width: 50%;
+}
+
+.header-right img{
+    width: 100%;
+}
+
+.gamer-container{
+    background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%,rgba(255, 66, 165, 0.03) 87.942%);
+}
+
+.gamer-main{
+    /* border: 1px solid red; */
+    display: flex;
+    max-width: 1150px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    text-align: right;
+}
+
+.gamer-left{
+    /* border: 2px solid yellow; */
+    width: 60%;
+}
+
+.gamer-left img{
+    width: 100%;
+}
+
+.gamer-right{
+    /* border: 1px solid green; */
+    width: 40%;
+    font-family: Work Sans;
+}
+
+.game{
+    font-size: 50px;
+    font-weight: 800;
+    background-image: linear-gradient(#f948b2, #8758f1);
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.301);
+}
+.game-overlay{
+    position: absolute; 
+    top: -9.9%;
+    margin-left: 121px;
+    text-shadow: none;
+}
+
+.purpose{
+    font-size: 18px;
+}
+
+.Unleash{
+    font-size: 25px;
 }
