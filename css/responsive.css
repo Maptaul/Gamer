@@ -131,6 +131,22 @@
         margin-left: 50px;
     }
 
+    .catagory-main{
+        /* border: 2px solid green; */
+        
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .catagory-child{
+        min-width: 100px;
+    }
+    
+    .catagory-child img{
+        width: 30px;
+    }
+
 
 
 
