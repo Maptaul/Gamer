@@ -118,6 +118,18 @@
         left: -22%;
     }
 
+    .career-main{
+       flex-direction: column;
+    }
+
+    .career-left{
+        /* border: 2px solid yellow; */
+        width: 80%;
+        font-family: Work Sans;
+        color: white;
+        margin: 0 auto;
+        margin-left: 50px;
+    }
 
 
 

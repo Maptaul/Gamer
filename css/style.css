@@ -337,3 +337,59 @@
     bottom: -7%;
     right: -20%;
 }
+
+
+.career-container{
+    background-image: url(../resources/group\ 14.png);
+    background-repeat: no-repeat;
+    background-position: -40%;
+    background-color: #f462ad;
+    
+    
+}
+
+.career-main{
+    /* border: 1px solid red; */
+    display: flex;
+    max-width: 1150px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.career-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.career-left{
+    /* border: 2px solid yellow; */
+    width: 45%;
+    font-family: Work Sans;
+    color: white;
+    margin: 0 auto;
+    /* margin-left: 50px; */
+    font-size: 1rem;
+}
+
+
+.career-btn1 {
+    padding: 15px 20px;
+    border-radius: 48px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #ff42a5;
+    background-color: rgb(255, 255, 255);;
+}
+
+
+
+.career-right{
+    /* border: 1px solid green; */
+    width: 50%;
+}
+
+.career-right img{
+    width: 100%;
+}
